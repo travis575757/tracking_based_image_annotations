@@ -15,12 +15,6 @@ pip install gdown
 cd ..
 ./main.sh <label name> <output directory> <video name> <decimation factor>
 ```
-
-Install gdown
-```bash
-pip install gdown
-```
-
 #### Usage
 
 ```bash
