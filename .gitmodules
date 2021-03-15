@@ -1,0 +1,3 @@
+[submodule "pysot"]
+	path = pysot
+	url = https://github.com/STVIR/pysot
