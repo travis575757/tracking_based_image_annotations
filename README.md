@@ -5,7 +5,16 @@ Use a video to automatically generate instance segmentations for a single object
 
 #### Installation
 
-Follow the pysot install instructions [here](https://github.com/STVIR/pysot/blob/master/INSTALL.md)
+```bash
+git clone --recursive https://github.com/travis575757/tracking_based_image_annotations
+cd tracking_based_image_annotations
+cd pysot
+bash install.sh <conda install directory> pysot
+conda activate pysot
+pip install gdown
+cd ..
+./main.sh <label name> <output directory> <video name> <decimation factor>
+```
 
 Install gdown
 ```bash
