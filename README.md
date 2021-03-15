@@ -7,6 +7,11 @@ Use a video to automatically generate instance segmentations for a single object
 
 Follow the pysot install instructions [here](https://github.com/STVIR/pysot/blob/master/INSTALL.md)
 
+Install gdown
+```bash
+pip install gdown
+```
+
 #### Usage
 
 ```bash
