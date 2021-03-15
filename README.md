@@ -1,9 +1,14 @@
 
-### tracking based image anotations
+# tracking based image anotations
 
 Use a video to automatically generate instance segmentations for a single object using labelme format
 
-Usage
+#### Installation
+
+Follow the pysot install instructions [here](https://github.com/STVIR/pysot/blob/master/INSTALL.md)
+
+#### Usage
+
 ```bash
 ./main.sh <label name> <output directory> <video name> <decimation factor>
 ```
