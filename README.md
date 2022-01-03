@@ -22,7 +22,7 @@ cd ..
 ```
 
 Example: Generate annotations from a video named `video7.mp4`, label car, output directory ./dataset and a decimation factor of 10
-applied to each generated mask
+applied to each generated mask.  All maskes are generated based on a polygon drawn by the user on the first video frame.
 ```bash
 ./main.sh car ./dataset video7.mp4 10
 ```
